@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(218, 206, 206);
+}
+
+.tituloNavbar{
+    margin-top: 6px;
+    margin-right: 150px;
+}
+.menus{
+    padding: 15px;
+    display: flex;
+}
+.navbarPrueba{
+    list-style-type: none;
+    margin: 10px;
+}

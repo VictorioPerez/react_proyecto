@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./components/NavBar";  
+function App(){
+    return(
+    <> 
+        <NavBar></NavBar>
+        <h4>Hola mundo con JSX UWU</h4>
+        <p>Prueba</p>
+    </>
+        )
+  } 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+  //export default variable == solo se puede exportar 1 vez
+  //export variable == se puede exportar cuantas veces quieras
+  export default App;
